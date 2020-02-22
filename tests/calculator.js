@@ -21,7 +21,7 @@ describe('demo calculator tests', function(){
         homepage.verifyResult('10');
 
 
-        browser.sleep(2000);
+        browser.sleep(3000);
 
     });
 
@@ -37,7 +37,7 @@ describe('demo calculator tests', function(){
         homepage.enterSecondNumber('6');
 
         //element(by.css('[ng-click="doAddition()"]')).click();
-        homepage.clickGo2();
+        homepage.clickGo();
 
         //let result = element(by.cssContainingText('.ng-binding', '5'));
         //expect(result.getText()).toEqual('5');
